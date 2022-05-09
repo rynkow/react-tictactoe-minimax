@@ -74,7 +74,9 @@ export function Game(){
                 </div>
             </div>
         </div>
-        <h1 className="status">{status}</h1>
+            <p className="status">player: {player}</p>
+            <p className="status">AI: {opponent}</p>
+            <h1 className="status">{status}</h1>
         </div>
     );
 }

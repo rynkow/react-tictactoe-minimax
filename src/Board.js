@@ -3,7 +3,7 @@ import {Square} from "./Square";
 
 export function Board(props){
     const renderSquare = (i) => {
-        return <Square value={props.squares[i]} onClick={()=>props.onClick(i)}/>;
+        return <Square className={'square square-' + i} value={props.squares[i]} onClick={()=>props.onClick(i)}/>;
     }
 
     return (
